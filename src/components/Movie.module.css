@@ -1,0 +1,31 @@
+.movie {
+    color: rgb(32, 30, 30);
+    display: flex;
+    justify-content: center;
+}
+
+.Img {
+    margin:10px
+}
+
+.contents {
+    font-size: 15px;
+}
+
+.contents h2 {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.contents a {
+    text-decoration: none;
+}
+
+.contents a:visited {
+    color: black;
+}
+
+.contents a:link {
+    color: black;
+}

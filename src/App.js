@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Detail from "./routes/Detail";
 import Home from "./routes/Home";
+import "./reset.css"
 
 function App() {
   return (
