@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./Detail.module.css"
+import Loading from "../components/Loading";
 
 const Detail = () => {
     const {id} = useParams();
@@ -19,7 +20,7 @@ const Detail = () => {
     return (
         <div>
             {loading ?
-                <h1>Loading...</h1> :
+                <Loading></Loading> :
                 <div>
                     <div className={styles.background}>
                         <img className = {styles.bimg} src= {movie.background_image} alt = "" />
