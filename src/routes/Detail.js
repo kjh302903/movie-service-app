@@ -33,7 +33,11 @@ const Detail = () => {
                                     <li key={genre}>{genre}</li>
                                 ))}
                             </ul>
+                            <p>year : {movie.year}</p>
+                            <p>rating : {movie.rating} / 10</p>
+                            <p>runtime : {movie.runtime}(min)</p>
                             <p>{movie.description_intro}</p>
+                            
                         </div>
                     </div>
                 </div>
